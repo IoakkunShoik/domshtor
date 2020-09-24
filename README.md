@@ -1,3 +1,3 @@
-add "images" folder
-rename "controller/db(examle.php)" to "controller/db.php" and configure it
-import "catalogue.sql" to your database 
+add "images" folder <br />
+rename "controller/db(examle.php)" to "controller/db.php" and configure it<br />
+import "catalogue.sql" to your database <br />
