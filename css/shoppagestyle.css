@@ -1,0 +1,51 @@
+.catalogue{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 70vw;
+}
+.category{
+    min-width: 70vw;
+    font-size: 2.5vw;
+    font-family: HelveticaBold;
+    margin-bottom: 2.5vw;
+    margin-top: 1vw;
+}
+.article{
+    cursor: pointer;
+    width: 30vw;
+    height: 36vw;
+    border: 1px solid #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;;
+    margin:-1px;
+    background-color: white;
+    transition: 0.5s;
+}
+.article:hover{
+    z-index: 100;
+    border: 1px solid #555;
+}
+.article .image{
+    background-color: gray;
+    width: 26vw;
+    height: 26vw;
+}
+.article .artfooter{
+    display: flex;
+    margin-top: -2vw;
+    width: 80%;
+    justify-content: space-between;
+    align-items:center;
+}
+.article .artfooter .name{
+    font-family: HelveticaThin;
+    font-size: 1.8vw;
+}
+.article .artfooter .price{
+    font-family: HelveticaBold;
+    font-size: 1.4vw;
+
+}

@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    margin: 0.5vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family: HelveticaRegular ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+/* LOGO */
+.statLogo{
+    height: 7.3vw;
+    width: 100%;
+}
+.logo{
+    background-color: white;
+    border-bottom: 1px solid #aaa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vw;
+    height: 6vw;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+.logo .name{
+    display: inline-block;
+    text-align: center;
+    font-size:1.4vw;
+}
+.logo .cart{
+    
+    height: 5vw;
+    width: 5vw;
+    transition: 0.3s; 
+    background-image: url(images/icons.jpg);
+    background-size:34vw;
+    background-position: -23vw -0.4vw;
+    
+}
+.logo .burger{
+    height: 5vw;
+    background-image: url(images/icons.jpg);
+    background-size:34vw;
+    background-position: -45.7vw -0.4vw;
+    width: 5vw;
+    transition: 0.3s;    
+}
+
+.logo .cart:hover{
+    background-size: 36vw;
+    background-position: -24.5vw -0.4vw;
+}
+.logo .burger:hover{
+    background-size: 36vw;
+    background-position: -48.5vw -0.4vw;
+}
+.logo .menu{
+    position: absolute;
+    left: -50vw;
+    top: 0px;
+    background-color: white;
+    border: 1px solid #999;
+    padding: 3vw;
+    height: 100vh;
+    width: 50vw;
+
+}
+.logo .menu li{
+    border-bottom: 1px #eee solid;
+    margin-top: 1.5vw;
+    cursor: pointer;
+}
+.logo .menu li:hover{
+    border-bottom: 1px #111 solid;
+    margin-top: 1.5vw;
+
+}
+
+.logo .cancelBurger{
+    height: 5vw;
+    background-image: url(images/icons.jpg);
+    background-size:34vw;
+    background-position: -51.7vw -1.4vw;
+    width: 5vw;
+    transition: 0.3s;    
+}
+
+.logo .cancelBurger:hover{
+    background-size: 36vw;
+    background-position: -55vw -1.4vw;
+
+}
+.cirCounter{
+    border-radius: 60vw;
+    background-color: #a22;
+    color:white;
+    transition: 0.3s;
+    opacity: 0;
+    width: 2vw;
+    height: 2vw;
+    font-family: Arial;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

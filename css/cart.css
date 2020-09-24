@@ -1,0 +1,57 @@
+.header{
+    font-family: HelveticaBold;
+    font-size: 2vw;
+    margin-bottom: 3vw;
+    min-width:70vw;
+}
+.order{
+    width:70vw;
+}
+img{
+    height: 5vw;
+}
+
+tr{
+    background-color: #ddd;
+}
+
+tr:nth-child(2n){
+    background-color: #aaa;
+}
+
+td{
+    padding: 0.4vw 2vw;
+    display: inline-flex;
+    align-items: center;
+}
+.del{
+    cursor: pointer;
+}
+.add{
+    display:none;
+    cursor: pointer;
+}
+input[type=text]{
+    float: right;
+    margin-left: 1vw;
+}
+form{
+    display: inline-block;
+}
+form>p {
+    margin-top: 2vw;
+}
+input[type=submit]{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-shadow: white 0vw 0vw 1vw;
+    font-size: 1vw;
+    line-height: 2vw;
+
+
+    text-align: center;
+    border: none;
+    margin-bottom: 1vw;
+}
